@@ -4,8 +4,9 @@ import 'package:test_flutter_app/home_screen.dart';
 import 'package:test_flutter_app/history_screen.dart';
 import 'package:go_router/go_router.dart';
 
+
 final _router = GoRouter(
-  routes: [ mainRoute, homeRoute, historyRoute],
+  routes: [mainRoute, homeRoute, historyRoute],
 );
 
 class RoutedApp extends StatelessWidget {
